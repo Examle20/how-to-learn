@@ -8,8 +8,8 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-div, h1, h2, img, p, h3 {
-
+div, h1, h2, img, p, h3,section {
+ border: 1px solid red;
 }
 .header {
   display: flex;
@@ -190,6 +190,46 @@ div, h1, h2, img, p, h3 {
 
 .table__text:nth-child(2){
   margin-bottom: 20px;
+}
+
+.feynman {
+  display: flex;
+  flex-direction: column;
+  height: 790px;
+  background-color: #f2f2f2;
+  position: relative;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 867px 637px;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  width: 648px;
+  text-align: center;
+  margin: 100px auto 0 auto;
+
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 70px auto 0 auto;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+  position: absolute;
+  right: 48px;
+  top: 50%;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
