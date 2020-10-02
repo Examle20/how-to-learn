@@ -101,7 +101,7 @@
 
 .two-columns__brif {
   width: 175px;
-  color: #2f80ed; ;
+  color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -257,12 +257,6 @@
 
 .section-subtitle_theme_dark {
   color: white;
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
