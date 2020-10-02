@@ -9,9 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 
 }
-div, h1, h2, img, p, h3,section, ul, li {
-  border: 1px solid red;
-}
+
 .header {
   height: 100vh;
   min-height: 600px;
