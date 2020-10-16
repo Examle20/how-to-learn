@@ -9,6 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-section, ul, li {
+section {
   border: 1px solid red;
 }
+
