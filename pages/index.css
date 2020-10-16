@@ -29,6 +29,8 @@
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
+/*Блок oakley*/
+@import url(../blocks/oakley/oakley.css);
 /*Блок digits*/
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/section-title/section-title.css);
