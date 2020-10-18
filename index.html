@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -20,7 +19,7 @@
     </header>
     <main class="content">
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте
@@ -42,7 +41,7 @@
               примере обучения в практикуме.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="techniques">
@@ -100,7 +99,7 @@
       </section>
 
       <section class="oakley">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием,
@@ -109,7 +108,7 @@
               придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания
               гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="feynman">
@@ -165,17 +164,15 @@
         <div class="khan__container">
           <cite class="khan__author">Салман Хан</cite>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p>
-            <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов
-              студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием
-              — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
-            </blockquote>
-          </p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов
+            студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием
+            — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
+          </blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img src="./images/khan/khan-book.jpg" class="khan__book-pic" alt="Картинка">
-            <div><a href="" class="khan__buy-link">Купить книгу &rarr;</a></div>
+            <a href="" class="khan__buy-link">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -232,12 +229,12 @@
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-      <div class="resources__logo-zone">
-        <img src="./images/resources/resources-arzamas.svg" alt="Картинка" class="resources__logo">
-        <img src="./images/resources/resources-n1.svg" alt="Картинка" class="resources__logo">
-        <img src="./images/resources/resources-strelka.svg" alt="Картинка" class="resources__logo">
-        <img src="./images/resources/resources-polka.svg" alt="Картинка" class="resources__logo">
-      </div>
+      <ul class="resources__logo-zone">
+        <li><a href="https://arzamas.academy/" target="_blank"><img src="./images/resources/resources-arzamas.svg" alt="Картинка" class="resources__logo"></a></li>
+        <li><a href="https://nplus1.ru/" target="_blank"><img src="./images/resources/resources-n1.svg" alt="Картинка" class="resources__logo"></a></li>
+        <li><a href="https://strelka.com/" target="_blank"><img src="./images/resources/resources-strelka.svg" alt="Картинка" class="resources__logo"></a></li>
+        <li><a href="https://polka.academy/" target="_blank"><img src="./images/resources/resources-polka.svg" alt="Картинка" class="resources__logo"></a></li>
+      </ul>
     </section>
 
     <footer class="footer">
